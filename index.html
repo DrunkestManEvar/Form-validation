@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a5a263efaf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2 class="form-heading">Register now!</h2>
+      <form class="form">
+        <div class="form-control">
+          <label for="username">Username:</label>
+          <input id="username" class="form-input" type="text" />
+          <div class="error-message hidden"></div>
+          <i class="fas fa-exclamation icon-error hidden"></i>
+          <i class="fas fa-check icon-success hidden"></i>
+        </div>
+        <div class="form-control">
+          <label for="email">Email:</label>
+          <input id="email" class="form-input" type="email" />
+          <div class="error-message hidden"></div>
+          <i class="fas fa-exclamation icon-error hidden"></i>
+          <i class="fas fa-check icon-success hidden"></i>
+        </div>
+        <div class="form-control">
+          <label for="password">Password:</label>
+          <input id="password" class="form-input" type="password" />
+          <div class="error-message hidden"></div>
+          <i class="fas fa-exclamation icon-error hidden"></i>
+          <i class="fas fa-check icon-success hidden"></i>
+        </div>
+        <div class="form-control">
+          <label for="password-confirm">Confirm password:</label>
+          <input id="password-confirm" class="form-input" type="password" />
+          <div class="error-message hidden"></div>
+          <i class="fas fa-exclamation icon-error hidden"></i>
+          <i class="fas fa-check icon-success hidden"></i>
+        </div>
+        <button class="btn btn--animate" type="submit">Register!</button>
+      </form>
+    </div>
+  </body>
+</html>
